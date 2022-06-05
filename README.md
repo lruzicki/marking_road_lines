@@ -3,7 +3,7 @@
 Python program using cv2, numpy, matplotlib to draw red line on the marking of road lines.
 
 Result:
-![alt-text](https://github.com/lukruz/marking_road_lines/blob/main/result3.gif?raw=true))
+![alt-text](https://github.com/lukruz/marking_road_lines/blob/main/result3.gif?raw=true)
 
 About:
 
@@ -13,7 +13,7 @@ First I used video capture provided by cv2 to loop the video frame by frame.
 Frame must be converted into gray...
 ![s2](https://user-images.githubusercontent.com/56487722/172052623-5d1648c9-bc3a-4c4a-bae7-8e8b0d9ed196.jpg)
 
-the blurred.
+...then blurred.
 ![s3](https://user-images.githubusercontent.com/56487722/172052620-47a94a62-0b19-4873-b42c-b3e55c7e6c16.jpg)
 
 Then it is possible for the program to use canny to detect edges. User must fit the lower and higher treshold to get low number of edges.
